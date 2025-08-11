@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import './MyOrders.css'
 import { StoreContext } from './../../components/context/StoreContext';
 import axios from 'axios';

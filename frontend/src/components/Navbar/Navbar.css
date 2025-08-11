@@ -52,6 +52,7 @@ background-color: #fff4f2;
 }
 
 .navbar-search-icon .dot{
+
     position: absolute;
     min-width: 10px;
     min-height: 10px;

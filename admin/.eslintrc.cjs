@@ -1,3 +1,8 @@
+import PropTypes from 'prop-types';
+
+List.propTypes = {
+  url: PropTypes.string.isRequired,
+};
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },

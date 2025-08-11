@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Footer.css'
 import { assets } from '../../assets/assets'
 
@@ -27,16 +27,14 @@ const Footer = () => {
             <div className="footer-content-right">
                 <h2>GET IN TOUCH</h2>
                 <ul>
-                    <li>+94 765489545</li>
-                    <li>dulanjalisenarathna93@gmail.com</li>
+                    <li>+91 9876543210</li>
+                    <li>dev.aakashgarg@gmail.com</li>
                 </ul>
             </div>
            
         </div>
         <hr />
-        <p className="footer-copyright">
-            Copyright 2024 &copy; Dulanjali - All Right Reserved.
-        </p>
+       
     </div>
   )
 }
