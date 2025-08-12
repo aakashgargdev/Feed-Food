@@ -14,5 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-//export const url = "https://feed-food-backend.onrender.com"
-export const url = "http://localhost:4000"; // Change this to your backend URL
+export const url = "https://feed-food-backend.onrender.com"
