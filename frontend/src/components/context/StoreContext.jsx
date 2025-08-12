@@ -6,7 +6,8 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState({});
-  const url = "https://feed-food-backend.onrender.com";
+  // const url = "https://feed-food-backend.onrender.com";
+  const url = "http://localhost:4000"; // Change this to your backend URL
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
 
